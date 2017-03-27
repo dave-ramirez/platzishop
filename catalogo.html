@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- google fonts Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap-flex.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header id="header-container">
+      <div class="container">
+        <div class="row flex-items-xs-middle flex-items-xs-between">
+          <div class="col-xs-3">
+            <h1>Platzishop</h1>
+          </div>
+          <div class="col-xs-3 text-xs-right">
+            <button class="navbar-toogler hidden-sm-up" data-toggle="collapse" data-target="#navMenu">
+              &#9776;
+            </button>
+            <a class="hidden-xs-down text-uppercase font-weight-bold" href="">Login</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- /Header -->
+
+    <!-- menu -->
+    <div id="menu-container">
+      <nav id="navMenu" class="navbar-toggleable-xs navbar navbar-light collapse">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-0">
+              <ul class="nav navbar-nav">
+                <li class="nav-item text-xs-center">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item text-xs-center active">
+                  <a class="nav-link" href="#">Catalago</a>
+                </li>
+                <li class="nav-item text-xs-center">
+                  <a class="nav-link" href="#">Carrito</a>
+                </li>
+                <li class="nav-item hidden-sm-up text-xs-center">
+                  <a class="nav-link" href="#">Login</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-11 col-md-5 offset-md-2 hidden-xs-down">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="¿Encontro lo que buscaba?">
+                  <span class="input-group-btn">
+                    <button class="btn btn-platzi" type="button">
+                      <span class="hidden-sm-down">Buscar</span>
+                      <i class="fa fa-search hidden-md-up"></i>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="search-bar" class="container hidden-sm-up">
+        <div class="row">
+          <div class="col-xs-11">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="¿Encontro lo que buscaba?">
+                <span class="input-group-btn">
+                  <button class="btn btn-platzi" type="button">
+                    <span class="hidden-sm-down">Buscar</span>
+                    <i class="fa fa-search hidden-md-up"></i>
+                  </button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- /menu -->
+
+    <!-- breadcrumbs -->
+    <section id="breadcrumbs-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs">
+            <nav class="breadcrumb">
+              <a href="index.html" class="breadcrumb-item">PlatziShop</a>
+              <a href="catalogo.html" class="breadcrumb-item">Catalogo</a>
+              <span class="breadcrumb-item active">Todos los productos</span>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /breadcrumbs -->
+
+    <!-- footer -->
+    <footer id="footer-container">
+      <div class="container">
+        <div class="row text-xs-center text-md-left">
+          <div class="col-md-4">
+            <form id="suscribeForm" action="" method="POST">
+              <h4 class="text-uppercase">¿Quieres recibir todas las novedades?</h4>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="tu@correo.com">
+                <small class="form-text text-muted">
+                  No compartiremos tu informacion con nadie mas
+                </small>
+              </div>
+              <button class="btn btn-primary form-text">
+                Suscribirme
+              </button>
+            </form>
+          </div>
+          <div class="col-md-3 offset-md-5">
+            <h4>Navegacion</h4>
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Catalogo</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Carrito</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Login</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- modal -->
+    <div class="modal fade" id="modalOferta">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4>Oferta exclusiva</h4>
+          </div>
+          <div class="modal-body">
+            Resgitrate hoy y recibe $15 de descuento!
+            <form action="#" class="form">
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="tu@correo.com">
+                <small class="form-text text-muted">No compartiremos tu informacion con nadie mas</small>
+              </div>
+              <button type="submit" name="button" class="btn btn-platzi form-text">Registrarme</button>
+              <button id="btnNoRegistrar" class="btn btn-warning form-text" data-dismiss="modal">No, no quiero registrarme</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /modal -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script>
+      mostrarModal()
+    </script>
+  </body>
+</html>
